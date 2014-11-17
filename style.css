@@ -1,0 +1,57 @@
+header {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+}
+body {
+	text-align: center;
+	background-color: rgba(173,255,47,0.6);
+	font-family: arial;
+}
+a:hover {
+	color: red;
+}
+h1 {
+	font-size: 45px;
+	color: blue;
+}
+h2 {
+	background: rgba(1,5,5,0.3);
+	color: blue;
+}
+p {
+	font-size: 16px;
+}
+article {
+	text-align: left;
+	max-width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+}
+input {
+	border: 0;
+    padding: 8px;
+    font-size: 12px;
+}
+input[type="submit"] {
+	background: rgba(0,191,225,1);
+    color: white;
+}
+img {
+	border: 8px solid blue;
+	border-radius: 10px;
+	margin: 25px 0px 10px 0px;
+}
+li{
+	margin: 25px 0px 25px 0px;
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 30px;
+		padding: 5px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
+}
